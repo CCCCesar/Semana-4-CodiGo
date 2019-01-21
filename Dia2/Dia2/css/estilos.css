@@ -1,0 +1,39 @@
+/*  [
+	{"keys": ["alt+shift+f"], "command": "reindent", "args": {"single_line": false}}
+ ]  */
+
+#cajapadre{
+	display: flex;
+	flex-direction: column;/* row */
+	width: 1000px;
+	height: 600px;
+	border: 1px solid red;
+	justify-content: center;/* space-around *//* space-between */ /* flex-start */ /* flex-end */ /* center */
+	align-items: center;/* flex-start; */ /* stretch */ /* center */
+	flex-wrap: wrap;/* nowrap */ /* wrap */
+}
+
+#cajapadre > div{
+	height: 145px;
+	margin: 5px;
+	background-color: #CCCCCC;
+}
+
+#caja-1{
+	max-width: 100px;
+	flex: 1;
+}
+#caja-2{
+	width: 100px;
+	flex: 1;
+}
+#caja-3{
+	width: 100px;
+	flex: 1;
+}
+#caja-4{
+	width: 300px;
+	flex: 1;
+}
+
+
